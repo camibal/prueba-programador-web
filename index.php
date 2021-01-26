@@ -47,7 +47,8 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 
         <!-- Button trigger modal -->
         <div class="row justify-content-end">
-            <button type="button" class="btn btn-success mt-5" data-toggle="modal" data-target="#modalInsert">
+            <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalDelete">Eliminar</button>
+            <button type="button" class="btn btn-success ml-3" data-toggle="modal" data-target="#modalInsert">
                 Agregar Auto
             </button>
         </div>
@@ -61,7 +62,6 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
                         <th scope="col">Color</th>
                         <th scope="col">Precio</th>
                         <th scope="col">Año</th>
-                        <th scope="col">Acción</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -71,10 +71,8 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
                         <tr>
                             <td><?php echo $dato->marca; ?></td>
                             <td><?php echo $dato->color; ?></td>
-                            <td><?php echo $dato->precio; ?></td>
+                            <td>$<?php echo $dato->precio; ?></td>
                             <td><?php echo $dato->anio; ?></td>
-                            <td><button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalDelete">Eliminar</button>
-                            </td>
                         </tr>
                     <?php
                     }
