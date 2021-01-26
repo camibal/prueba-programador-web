@@ -10,7 +10,9 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- styles -->
     <link href="assets/css/index.css" rel="stylesheet">
     <title>Document</title>
 </head>
