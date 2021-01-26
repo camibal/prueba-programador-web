@@ -3,7 +3,7 @@
 # paso 1:<br>
 Instalar un servidor local se sugiere XAMPP https://www.apachefriends.org/download.html<br>
 # paso 2:<br>
-inicie el servidor<br>
+Ejecute, abra e inicie el servidor<br>
 # paso 3:<br>
 abra el navegador y digite sobre la barra de busqueda localhost/phpmyadmin, cree una nueva base de datos con el nombre dbprueba e importe el archivo dbprueba.sql que aparece dentro del directorio config<br>
 # paso 4:<br>
