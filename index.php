@@ -18,9 +18,13 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 </head>
 
 <body>
+    <!-------------------  ------------------->
+    <!------------------- BODY ------------------->
+    <!-------------------  ------------------->
+
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar w/ text</a>
+        <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,7 +41,7 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
                 </li>
             </ul>
             <span class="navbar-text">
-                Navbar text with an inline element
+                Navbar
             </span>
         </div>
     </nav>
@@ -45,7 +49,7 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
     <!-- container -->
     <div class="container mt-5">
         <!-- title -->
-        <h1> Empresa de venta de autos usados </h1>
+        <h1 class="mb-5"> Autos Usados </h1>
 
         <!-- Button trigger modal -->
         <div class="row justify-content-end">
@@ -160,6 +164,10 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
         </div>
     </div>
 
+    <!-------------------  ------------------->
+    <!------------------- FOOTER ------------------->
+    <!-------------------  ------------------->
+
     <!-- footer -->
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
@@ -170,7 +178,10 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
         <!-- Copyright -->
     </footer>
 
-    <!-- scripts -->
+    <!-------------------  ------------------->
+    <!------------------- SCRIPTS ------------------->
+    <!-------------------  ------------------->
+
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/index.js"></script>
