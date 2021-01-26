@@ -1,7 +1,7 @@
 # prueba-desarrollador-web
 
 # paso 1:<br>
-Instalar un servidor local se sugiere XAMPP <a href="https://www.apachefriends.org/download.html" target="_blank"></a><br>
+Instalar un servidor local se sugiere XAMPP https://www.apachefriends.org/download.html<br>
 # paso 2:<br>
 inicie el servidor<br>
 # paso 3:<br>
