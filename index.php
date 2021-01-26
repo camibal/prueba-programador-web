@@ -49,7 +49,7 @@ $autos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 
         <!-- Button trigger modal -->
         <div class="row justify-content-end">
-            <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalDelete">Eliminar</button>
+            <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalDelete">Borrar</button>
             <button type="button" class="btn btn-success ml-3" data-toggle="modal" data-target="#modalInsert">
                 Agregar Auto
             </button>
